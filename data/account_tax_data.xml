@@ -1,0 +1,40 @@
+<!-- data/account_tax_data.xml -->
+<odoo>
+    <record id="tax_retail_1" model="account.tax">
+        <field name="name">Retail Tax 1</field>
+        <field name="is_retail">True</field>
+        <field name="amount">10</field>
+        <field name="is_retail">True</field>
+        <field name="type_tax_use">sale</field>
+    </record>
+    <record id="tax_retail_2" model="account.tax">
+        <field name="name">Retail Tax 2</field>
+        <field name="amount">5</field>
+        <field name="is_retail">True</field>
+        <field name="type_tax_use">sale</field>
+    </record>
+    <record id="tax_corporate_1" model="account.tax">
+        <field name="name">Corporate Tax 1</field>
+        <field name="amount">15</field>
+        <field name="is_corporate">True</field>
+        <field name="type_tax_use">sale</field>
+    </record>
+    <record id="tax_corporate_2" model="account.tax">
+        <field name="name">Corporate Tax 2</field>
+        <field name="amount">7.5</field>
+        <field name="is_corporate">True</field>
+        <field name="type_tax_use">sale</field>
+    </record>
+    <record id="tax_subscription_1" model="account.tax">
+        <field name="name">Subscription Tax 1</field>
+        <field name="amount">12</field>
+        <field name="is_subscription">True</field>
+        <field name="type_tax_use">sale</field>
+    </record>
+    <record id="tax_subscription_2" model="account.tax">
+        <field name="name">Subscription Tax 2</field>
+        <field name="amount">8</field>
+        <field name="is_subscription">True</field>
+        <field name="type_tax_use">sale</field>
+    </record>
+</odoo>
